@@ -3,12 +3,9 @@ Depends: frr
 Restrictions: needs-root, isolation-container
 
 Tests: bgpd-snmp-rpki
-Depends: frr,
-         frr-rpki-rtrlib,
-         frr-snmp
+Depends: frr, frr-snmp, frr-rpki-rtrlib
 Restrictions: needs-root, isolation-container
 
 Tests: py-frr-reload
-Depends: frr,
-         frr-pythontools
+Depends: frr, frr-pythontools
 Restrictions: needs-root, isolation-container
